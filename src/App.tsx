@@ -3,6 +3,7 @@ import { ParallaxBG } from "./components/common";
 import swim1 from "./assets/images/swim1.jpeg";
 
 function App() {
+  // test
   return (
     <main>
       <Header />
