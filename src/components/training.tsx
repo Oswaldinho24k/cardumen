@@ -5,7 +5,7 @@ export default function Training() {
   return (
     <section
       id="training"
-      className="bg-cyan-100 px-10 py-10 md:px-16 lg:px-20"
+      className="bg-cyan-100 px-10 py-10 md:py-20 md:px-16 lg:px-20"
     >
       <RevealComponent>
         <p className="text-3xl font-bold text-center">Cardumen</p>

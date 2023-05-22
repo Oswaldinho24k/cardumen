@@ -5,7 +5,7 @@ export default function TeamSection() {
   return (
     <section
       id="team"
-      className="bg-white px-10 py-10 md:px-16 lg:px-20 grid grid-cols-12 gap-3"
+      className="bg-white px-10 py-10 md:py-20 md:px-16 lg:px-20 grid grid-cols-12 gap-3"
     >
       <div className="md:col-span-4 col-span-12">
         <RevealComponent>

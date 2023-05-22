@@ -11,7 +11,7 @@ export default function Testimonials() {
       <Slider slideAuto>
         {[1, 2, 3].map((item, key) => (
           <div className="bg-white pt-10 w-full" key={key}>
-            <div className="bg-cyan-100 pb-10 sm:pb-24 md:pb-10 lg:pb-20">
+            <div className="bg-cyan-100 pb-10 md:pb-20 sm:pb-24 md:pb-10 lg:pb-20">
               <div className="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
                 <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
                   <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
@@ -22,7 +22,7 @@ export default function Testimonials() {
                     />
                   </div>
                 </div>
-                <div className="w-full max-w-2xl xl:max-w-none xl:flex-auto px-10 py-10 md:px-16 lg:px-20 ">
+                <div className="w-full max-w-2xl xl:max-w-none xl:flex-auto px-10 py-10 md:py-20 md:px-16 lg:px-20 ">
                   <figure className="relative isolate pt-6 sm:pt-12">
                     <svg
                       viewBox="0 0 162 128"

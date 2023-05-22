@@ -44,7 +44,10 @@ const posts = [
 
 export default function Events() {
   return (
-    <section id="events" className="bg-white px-10 py-10 md:px-16 lg:px-20">
+    <section
+      id="events"
+      className="bg-white px-10 py-10 md:py-20 md:px-16 lg:px-20"
+    >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <RevealComponent>
